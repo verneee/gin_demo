@@ -1,0 +1,9 @@
+<h1>Hello!Golang!</h1>
+what's up!!!\n
+<img id='i1'src='https://img0.baidu.com/it/u=3289247946,166607536&fm=253&fmt=auto&app=138&f=JPEG?w=563&h=500'>
+<button id='b1'>切换图片</button>
+<script>
+document.getElementById('b1').onclick=function(){
+    document.getElementById('i1').src='https://img1.baidu.com/it/u=3405773900,3598102136&fm=253&fmt=auto&app=138&f=JPEG?w=754&h=500'
+}
+</script>
